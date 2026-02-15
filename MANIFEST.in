@@ -1,0 +1,16 @@
+include README.md
+include LICENSE
+include CHANGELOG.md
+include requirements.txt
+include requirements-dev.txt
+recursive-include github_markdown_pdf *.py
+recursive-include tests *.py
+recursive-include tests/test_data *
+recursive-include docs *.md
+recursive-include docs/examples *.py
+recursive-include scripts *.py
+include .github/workflows/test.yml
+global-exclude *.pyc
+global-exclude __pycache__
+global-exclude .DS_Store
+global-exclude *.so

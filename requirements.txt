@@ -1,0 +1,4 @@
+# Production dependencies
+markdown>=3.4.0
+weasyprint>=56.0
+Pygments>=2.10.0
